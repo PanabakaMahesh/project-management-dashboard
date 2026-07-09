@@ -10,7 +10,7 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 
 // Load environment variables
 dotenv.config();
-console.log("MONGO_URI:", process.env.MONGO_URI);
+
 
 // Connect to MongoDB
 connectDB();
